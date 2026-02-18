@@ -1,5 +1,6 @@
 import { When, Then } from '@badeball/cypress-cucumber-preprocessor';
 
+const getUsername = () => {
   const u = Cypress.env('username');
   expect(u, 'CYPRESS username').to.be.a('string').and.not.be.empty;
   return u as string;
