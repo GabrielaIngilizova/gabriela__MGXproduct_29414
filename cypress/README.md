@@ -1,6 +1,6 @@
 # QA Automation Project – Cypress + Cucumber (BDD) + TypeScript
 
-This repository contains an automated testing project created as part of the QA Specialist technical assignment. The purpose of this project is to demonstrate the ability to design test scenarios, apply BDD methodology, and automate user flows using Cypress and TypeScript.
+This repository contains an automated testing project created as part of the QA Specialist technical assignment. The purpose of this project is to demonstrate the ability to design test scenarios, and automate user flows using Cypress and TypeScript.
 
 ## Project Purpose
 The project focuses on two main flows:
