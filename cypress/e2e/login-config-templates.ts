@@ -1,6 +1,5 @@
 import { When, Then } from '@badeball/cypress-cucumber-preprocessor';
 
-const getUsername = () => {
   const u = Cypress.env('username');
   expect(u, 'CYPRESS username').to.be.a('string').and.not.be.empty;
   return u as string;
@@ -60,5 +59,5 @@ When('I click {string} page', (pageName: string) => {
 Then('{string} page is open', (pageName: string) => {
 
   cy.url({ timeout: 15000 }).should('not.be.empty');
-  cy.get('body', { timeout: 15000 }).should('exist');
-});
+  cy
+  et('body', { timeout: 15000 }).should('exist');
