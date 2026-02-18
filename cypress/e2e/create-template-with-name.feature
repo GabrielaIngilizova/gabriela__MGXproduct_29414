@@ -1,6 +1,5 @@
 Feature: Create a new Template
 
-  # Precondition: reuse the same flow you already validated
   Background:
     When I navigate to "https://productionportal.master.mediagenix.io"
     And I enter the "user name"
